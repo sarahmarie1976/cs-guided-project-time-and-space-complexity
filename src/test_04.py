@@ -53,7 +53,7 @@ def csFindAddedLetter(str_1, str_2):
     intChar = largeStrCodeTotal - smallStrCodeTotal    
     return chr(intChar) 
 
-    print(csFindAddedLetter(bcde, str_2 = "bcdef"))
-    # print(csFindAddedLetter(str_1 = "", str_2 = "z"))
-    # print(csFindAddedLetter(str_1 = "b", str_2 = "bb"))
-    # print(csFindAddedLetter(str_1 = "b", str_2 = "bb"))
+print(csFindAddedLetter(str_1 = "bcde", str_2 = "bcdef"))
+print(csFindAddedLetter(str_1 = "", str_2 = "z"))
+print(csFindAddedLetter(str_1 = "b", str_2 = "bb"))
+print(csFindAddedLetter(str_1 = "b", str_2 = "bb"))

@@ -18,3 +18,13 @@ input_str will only contain lowercase alpha characters.
 """
 
 def csFirstUniqueChar(input_str):
+    check = {}
+    for i in input_str:
+        check[i] = check.get(i, 0) +1
+    for i, j in enumerate(input_str):
+        if check[j] == check[j] == 1:
+            return i
+
+print(csFirstUniqueChar(input_str = "lambdaschool"))  
+print(csFirstUniqueChar(input_str = "ilovelambdaschool"))   
+print(csFirstUniqueChar(input_str = "vvv"))
